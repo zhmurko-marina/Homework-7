@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>To Do List</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400" rel="stylesheet">
+
+</head>
+<body>
+<div class="wrapper">
+    <div class="information">
+        <p>Done: <span id="countOfDone"></span></p>
+        <p>Not done: <span id="countOfNotDone"></span></p>
+        <p>All tasks: <span id="countOfAll"></span></p>
+    </div>
+    <h1>To Do List</h1>
+    <div class="new-task">
+        <input type="text"  id="todoInput" maxlength="100" autofocus placeholder="New task...">
+        <button type="button" id="addTask">Add</button>
+    </div>
+
+
+
+    <ul id="todoList"></ul>
+</div>
+<script src="js/main.js"></script>
+</body>
+</html>

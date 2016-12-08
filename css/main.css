@@ -1,0 +1,110 @@
+@charset "UTF-8";
+.wrapper {
+  font-family: "Lato", sans-serif;
+  max-width: 600px;
+  margin: 20px auto;
+  background-color: #F5F5F5;
+  min-height: 600px;
+  border-radius: 20px;
+  overflow: hidden; }
+
+.information {
+  display: flex;
+  padding: 10px 50px; }
+  .information p {
+    padding-right: 30px; }
+
+h1 {
+  text-align: center;
+  font-weight: 300; }
+.new-task{
+  padding: 50px;
+}
+.new-task input{
+  width: 400px;
+  height: 40px;
+  font-size: 17px;
+  padding: 0 20px;
+  float: left;}
+
+button {
+  height: 44px;
+  width: 56px;
+  margin: 0;
+  background: #01579B;
+  border: none;
+  color: #fff; }
+
+ul {
+  padding: 30px 0 70px; }
+  ul li {
+    list-style: none;
+    margin: 0 auto;
+    display: flex;
+    max-width: 500px;
+    background-color: #FAFAFA;
+    justify-content: space-between;
+    -webkit-user-select: none;
+    -webkit-user-drag: element;
+    border: 1px solid #BDBDBD;
+    cursor: move;
+    transition: 0.2s;
+    position: relative; }
+    ul li p {
+      margin: 0;
+      font-size: 20px;
+      cursor: pointer;
+      padding: 10px 10px 10px 40px; }
+    ul li .button-delete {
+      background: #03A9F4;
+      width: 44px;
+      height: 44px;
+      border: none;
+      position: absolute;
+      right: 55px; }
+  ul li:hover {
+    background: #EEEEEE; }
+  ul p.checked {
+    text-decoration: line-through;
+    position: relative; }
+  ul p.checked::before {
+    content: "✓";
+    font-size: 25px;
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    left: 10px;
+    top: 4px;
+    color: #1B5E20; }
+  ul .delete-task {
+    display: none; }
+
+.edit {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  margin: 0 auto;
+  background: rgba(0, 0, 0, 0.7); }
+  .edit div {
+    text-align: center;
+    width: 400px;
+    margin: 50px auto;
+    padding: 100px;
+    background: #fff;
+    border-radius: 20px; }
+  .edit input {
+    margin: 0 auto;
+    width: 400px;
+    height: 40px;
+    float: none; }
+  .edit button {
+    background: #03A9F4;
+    position: relative;
+    min-width: 80px;
+    margin: 20px 10px;
+    height: 44px;
+    border: none; }
+
+/*# sourceMappingURL=main.css.map */
